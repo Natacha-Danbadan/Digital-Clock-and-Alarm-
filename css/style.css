@@ -1,0 +1,53 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(27, 26, 26);
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 10vw;
+    color: black;
+    border-radius: 10px;
+    background:linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+    margin-bottom: 20px;
+    padding: 20px;
+
+}
+
+.controls {
+    margin-top: 16px;
+    
+}
+input{
+    color: white;
+    border-color: black;
+    padding: 10px;
+}
+.button {
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+.set-alarm {
+    background-color: #498AFB;
+}
+
+.clear-alarm {
+    background-color: #FF3860;
+}
+
