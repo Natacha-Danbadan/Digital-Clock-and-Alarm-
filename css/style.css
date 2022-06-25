@@ -25,10 +25,11 @@
 
 }
 
-.controls {
-    margin-top: 16px;
-    
+.alarm-function {
+    margin-top: 30px;
+   
 }
+
 input{
     color: white;
     border-color: black;
